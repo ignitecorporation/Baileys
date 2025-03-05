@@ -524,6 +524,7 @@ export const makeChatsSocket = (config: SocketConfig) => {
 	 * type = "preview" for a low res picture
 	 * type = "image for the high res picture"
 	 */
+  
 	const profilePictureUrl = async(jid: string, type: 'preview' | 'image' = 'preview', timeoutMs?: number) => {
 		jid = jidNormalizedUser(jid)
 		const result = await query({
