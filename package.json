@@ -43,7 +43,7 @@
     "@cacheable/node-cache": "^1.4.0",
     "@hapi/boom": "^9.1.3",
     "async-mutex": "^0.5.0",
-    "libsignal": "git+https://github.com/sergiolps/libsignal-node-no-annoying-logs#b079b7202c7aeb00f2441976f3dbb06aaa5fae37",
+    "libsignal": "git+https://github.com/sergiolps/libsignal-node-no-annoying-logs.git#b079b7202c7aeb00f2441976f3dbb06aaa5fae37",
     "lru-cache": "^11.1.0",
     "music-metadata": "^11.7.0",
     "p-queue": "^9.0.0",
